@@ -20,6 +20,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
     max-width:800px;
+    width: 800px;
     margin: auto;
     overflow: hidden;
 }
@@ -108,3 +109,8 @@ ul li {
     line-height: 28px; 
 }
 
+@media screen and (max-width: 600px){
+    .row {
+        flex-direction: column
+    }
+}
