@@ -16,17 +16,59 @@ body {
 
 main {
     background-color:#fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
     min-width:800px;
     margin: auto;
+    overflow: hidden;
 }
 
 section {
     padding: 35px;
 }
 
-section.grayish-blue{
-    background-color: hsl(179, 47%, 52%);
-}
-section.cyan {
+.cyan {
     background-color: hsl(179, 62%, 43%);
+    color: #fff;
+}
+
+.grayish-blue{
+    background-color: hsl(179, 47%, 52%);
+    color: #fff;
+}
+
+.grayish-blue ul {
+    font-size: 18px;
+    list-style-type: none;
+    padding: 0;
+    opacity: 0.6;
+}
+
+.row {
+    display: flex;
+}
+.row > section {
+    flex: 1;
+}
+
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.yellow-text {
+    color: hsl(71, 73%, 54%);
+}
+.yellow-button {
+    background-color:hsl(71, 73%, 54%);
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
 }
